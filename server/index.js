@@ -16,7 +16,9 @@ mongoose.connect(config.mongoURI,
 
 
 
-
+app.get("/", (req, res) => {
+    res.json({ "hello": "Auth. API" })
+})
 
 app.use(bodyParser.urlencoded({
     extended: true
