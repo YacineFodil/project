@@ -86,3 +86,6 @@ typings/
 /build
 
 .vscode
+
+
+dev.js
